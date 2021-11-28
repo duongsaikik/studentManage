@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:title="Main"
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="always"
+      >
+        <menu>
+            <item android:id="@+id/action_add"
+                android:title="Thêm sinh viên"
+                android:icon="@drawable/ic_add_student"
+                android:orderInCategory="100"
+                android:iconTint="@color/black"
+                app:showAsAction="never"
+                />
+
+        </menu>
+    </item>
+
+
+
+</menu>
